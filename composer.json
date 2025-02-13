@@ -68,6 +68,11 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "internetguru/laravel-common": "dev-dev",
+        "internetguru/laravel-model-browser": "dev-dev",
+        "internetguru/laravel-smart-redirect": "dev-dev",
+        "internetguru/laravel-translatable": "dev-dev",
+        "internetguru/laravel-user": "dev-dev",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "*"

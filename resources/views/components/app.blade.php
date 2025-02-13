@@ -13,7 +13,8 @@
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>
     <body>
-        <x-header :$title :breadcrumb="$breadcrumb ?? null"/>
+        <x-ig::demo-info />
+        <x-header/>
 
         <main class="container-fluid">
             @if (isset($title) && isset($description))

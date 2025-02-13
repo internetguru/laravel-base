@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Facade;
+use Illuminate\Support\ServiceProvider;
+
 return [
 
     /*
@@ -122,5 +125,13 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
+
+    'aliases' => Facade::defaultAliases()->merge([
+        'Helpers' => InternetGuru\LaravelCommon\Support\Helpers::class,
+    ])->toArray(),
+
+    'providers' => ServiceProvider::defaultProviders()->replace([
+        Illuminate\Translation\TranslationServiceProvider::class => InternetGuru\LaravelCommon\TranslationServiceProvider::class,
+    ])->toArray(),
 
 ];

@@ -22,3 +22,5 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+# do not git composer lock to be able install pacgages locally without changes
+composer.lock

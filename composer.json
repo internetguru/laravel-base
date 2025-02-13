@@ -1,17 +1,81 @@
 {
-    "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "internetguru/laravel-base",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "The Internet Guru skeleton application for the Laravel framework.",
     "keywords": [
         "laravel",
-        "framework"
+        "framework",
+        "base",
+        "Internet Guru"
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "internetguru/laravel-common",
+                "version": "dev-dev",
+                "dist": {
+                    "type": "path",
+                    "url": "./vendor-local/laravel-common"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "internetguru/laravel-model-browser",
+                "version": "dev-dev",
+                "dist": {
+                    "type": "path",
+                    "url": "./vendor-local/laravel-model-browser"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "internetguru/laravel-smart-redirect",
+                "version": "dev-dev",
+                "dist": {
+                    "type": "path",
+                    "url": "./vendor-local/laravel-smart-redirect"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "internetguru/laravel-translatable",
+                "version": "dev-dev",
+                "dist": {
+                    "type": "path",
+                    "url": "./vendor-local/laravel-translatable"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "internetguru/laravel-user",
+                "version": "dev-dev",
+                "dist": {
+                    "type": "path",
+                    "url": "./vendor-local/laravel-user"
+                }
+            }
+        }
     ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "internetguru/laravel-common": "dev-dev",
+        "internetguru/laravel-model-browser": "dev-dev",
+        "internetguru/laravel-smart-redirect": "dev-dev",
+        "internetguru/laravel-translatable": "dev-dev",
+        "internetguru/laravel-user": "dev-dev",
         "laravel/framework": "^11.31",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "livewire/livewire": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

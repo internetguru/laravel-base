@@ -1,0 +1,29 @@
+// vendor-abstract
+@import 'ig::common/variables';
+@import 'ig::common/mixins';
+@import 'ig::user/variables';
+
+// abstract
+
+// bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// vendor-components
+@import 'ig::common/btn';
+@import 'ig::common/card';
+@import 'ig::common/messages';
+
+// components
+
+// vendor-layout
+@import 'ig::common/links';
+@import 'ig::common/global';
+@import 'ig::common/section';
+
+// layout
+
+// vendor-specific
+@import 'ig::user/socialites';
+@import 'ig::user/user-detail';
+
+// specific

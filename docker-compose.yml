@@ -19,6 +19,11 @@ services:
             IGNITION_LOCAL_SITES_PATH: '${PWD}'
         volumes:
             - '.:/var/www/html'
+            - '../laravel-common:/var/www/html/vendor-local/laravel-common'
+            - '../laravel-model-browser:/var/www/html/vendor-local/laravel-model-browser'
+            - '../laravel-smart-redirect:/var/www/html/vendor-local/laravel-smart-redirect'
+            - '../laravel-translatable:/var/www/html/vendor-local/laravel-translatable'
+            - '../laravel-user:/var/www/html/vendor-local/laravel-user'
         networks:
             - sail
         depends_on:

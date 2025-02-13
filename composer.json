@@ -75,7 +75,7 @@
         "internetguru/laravel-user": "dev-dev",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "*"
+        "livewire/livewire": "^3.5"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

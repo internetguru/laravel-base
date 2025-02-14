@@ -1,4 +1,5 @@
 {
+    "version": "1.0.0",
     "name": "internetguru/laravel-base",
     "type": "project",
     "description": "The Internet Guru skeleton application for the Laravel framework.",
@@ -8,63 +9,11 @@
         "base",
         "Internet Guru"
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "internetguru/laravel-common",
-                "version": "dev-dev",
-                "dist": {
-                    "type": "path",
-                    "url": "./vendor-local/laravel-common"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "internetguru/laravel-model-browser",
-                "version": "dev-dev",
-                "dist": {
-                    "type": "path",
-                    "url": "./vendor-local/laravel-model-browser"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "internetguru/laravel-smart-redirect",
-                "version": "dev-dev",
-                "dist": {
-                    "type": "path",
-                    "url": "./vendor-local/laravel-smart-redirect"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "internetguru/laravel-translatable",
-                "version": "dev-dev",
-                "dist": {
-                    "type": "path",
-                    "url": "./vendor-local/laravel-translatable"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "internetguru/laravel-user",
-                "version": "dev-dev",
-                "dist": {
-                    "type": "path",
-                    "url": "./vendor-local/laravel-user"
-                }
-            }
-        }
-    ],
+    "repositories": [{
+        "type": "path",
+        "url": "../internetguru/*",
+        "symlink": true
+    }],
     "license": "MIT",
     "require": {
         "php": "^8.2",

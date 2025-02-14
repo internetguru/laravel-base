@@ -19,6 +19,7 @@
         "php": "^8.2",
         "internetguru/laravel-common": "dev-dev",
         "internetguru/laravel-model-browser": "dev-dev",
+        "internetguru/laravel-recaptchav3": "dev-master",
         "internetguru/laravel-smart-redirect": "dev-dev",
         "internetguru/laravel-translatable": "dev-dev",
         "internetguru/laravel-user": "dev-dev",

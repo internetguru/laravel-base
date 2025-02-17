@@ -11,18 +11,18 @@
     ],
     "repositories": [{
         "type": "path",
-        "url": "../internetguru/*",
+        "url": "/internetguru-local/*",
         "symlink": true
     }],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "internetguru/laravel-common": "dev-dev",
-        "internetguru/laravel-model-browser": "dev-dev",
-        "internetguru/laravel-recaptchav3": "dev-master",
-        "internetguru/laravel-smart-redirect": "dev-dev",
-        "internetguru/laravel-translatable": "dev-dev",
-        "internetguru/laravel-user": "dev-dev",
+        "internetguru-local/laravel-common": "dev-dev",
+        "internetguru-local/laravel-model-browser": "dev-dev",
+        "internetguru-local/laravel-recaptchav3": "dev-master",
+        "internetguru-local/laravel-smart-redirect": "dev-dev",
+        "internetguru-local/laravel-translatable": "dev-dev",
+        "internetguru-local/laravel-user": "dev-dev",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5"

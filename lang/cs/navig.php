@@ -8,5 +8,6 @@ return [
     'register.email' => 'Nový účet s emailem',
     'users.index' => 'Uživatelé',
     'users.show' => 'Detail uživatele',
+    'error' => 'Chyba',
 
 ];

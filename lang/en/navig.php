@@ -8,5 +8,6 @@ return [
     'register.email' => 'New Account with Email',
     'users.index' => 'Users',
     'users.show' => 'User Detail',
+    'error' => 'Error',
 
 ];

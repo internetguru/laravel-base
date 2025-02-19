@@ -2,7 +2,7 @@
 
 return [
 
-    'home' => 'Výchozí projekt pro Laravel|BP',
+    'home' => 'Laravel Base Projekt|BP',
     'login' => 'Přihlášení',
     'register' => 'Nový účet',
     'register.email' => 'Nový účet s emailem',

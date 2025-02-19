@@ -18,11 +18,4 @@ export default defineConfig({
             'ig::user': path.resolve(__dirname, 'vendor/internetguru/laravel-user/resources/sass'),
         }
     },
-    server: {
-        host: '127.0.0.1',
-        cors: {
-            origin: 'http://my.localhost.io:88',
-            credentials: true,
-        },
-    },
 });

@@ -8,6 +8,9 @@
     </x-slot>
 
     <section class="section section-welcome">
-        TODO
+        <div>
+            TODO
+        </div>
     </section>
+
 </x-app>

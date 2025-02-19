@@ -16,6 +16,7 @@ export default defineConfig({
         alias: {
             'ig::common': path.resolve(__dirname, 'vendor/internetguru/laravel-common/resources/sass'),
             'ig::user': path.resolve(__dirname, 'vendor/internetguru/laravel-user/resources/sass'),
+            'ig::model-browser': path.resolve(__dirname, 'vendor/internetguru/laravel-model-browser/resources/sass'),
         }
     },
 });

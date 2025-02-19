@@ -13,12 +13,14 @@
         @lang("ig-user::layouts.$view.description")
     </x-slot>
 
+    {{--
     @php
         // Disable sort for users.index view
         if ($view == 'users.index') {
             $props['enableSort'] = false;
         }
     @endphp
+    --}}
 
     @include("ig-user::$view", $props)
 

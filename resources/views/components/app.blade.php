@@ -14,7 +14,7 @@
     </head>
     <body>
         <x-ig::demo-info />
-        <x-header/>
+        <x-header />
 
         <main class="container-fluid">
             @if (isset($title) && isset($description))
@@ -30,7 +30,8 @@
             <x-ig::messages />
         </main>
 
-        <x-footer/>
+        <x-footer />
+        <x-ig::component-signatures />
 
         {!! $scripts ?? '' !!}
         @livewireScriptConfig

@@ -14,10 +14,10 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         if (config('app.demo')) {
-            User::factory()->withRole(User::roles()::PENDING)->create();
-            User::factory()->withRole(User::roles()::SPECTATOR)->create();
-            User::factory()->withRole(User::roles()::MANAGER)->create();
+            User::factory()->withRole(User::roles()::CUSTOMER)->create();
             User::factory()->withRole(User::roles()::OPERATOR)->create();
+            User::factory()->withRole(User::roles()::AUDITOR)->create();
+            User::factory()->withRole(User::roles()::MANAGER)->create();
             User::factory()->withRole(User::roles()::ADMIN)->create();
         } else {
             User::factory()->withSocialite(

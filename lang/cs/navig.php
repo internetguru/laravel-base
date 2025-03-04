@@ -9,5 +9,6 @@ return [
     'users.index' => 'Uživatelé',
     'users.show' => 'Detail uživatele',
     'error' => 'Chyba',
+    'token_auth' => 'Jednorázové přihlášení',
 
 ];

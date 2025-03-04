@@ -9,5 +9,6 @@ return [
     'users.index' => 'Users',
     'users.show' => 'User Detail',
     'error' => 'Error',
+    'token_auth' => 'One-time Login',
 
 ];

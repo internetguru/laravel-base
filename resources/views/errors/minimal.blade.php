@@ -9,7 +9,7 @@
     </x-slot>
 
     <x-slot:headTitle>
-        @yield('title')
+        @yield('code') @yield('title')
     </x-slot>
 
     <section class="section section-error">

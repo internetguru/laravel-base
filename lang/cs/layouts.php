@@ -9,6 +9,14 @@ return [
     'support.link' => 'Technická podpora',
 
     'footer.copy' => '© :year Internet Guru. Všechna práva vyhrazena.',
+
+    'provider' => '© 2024–:year :link – Všechna práva vyhrazena.',
     'provider.email' => 'info@internetguru.io',
+    'provider.name' => 'Internet Guru',
+    'provider.www' => 'www.internetguru.cz',
+
+    'service' => ':link – Ukázkový slogan služby.',
+    'service.name' => 'Moje Služba',
+    'service.www' => 'www.moje-sluzba.cz',
 
 ];

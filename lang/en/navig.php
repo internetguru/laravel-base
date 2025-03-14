@@ -10,5 +10,10 @@ return [
     'users.show' => 'User Detail',
     'error' => 'Error',
     'token_auth' => 'One-time Login',
+    'i18n' => 'Translations',
+    'i18n.missing-all' => 'All translations are missing',
+    'i18n.missing-cs' => 'Czech translation is missing',
+    'i18n.missing-en' => 'English translation is missing',
+    'i18n.complete' => 'Complete translations',
 
 ];

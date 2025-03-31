@@ -6,6 +6,7 @@
 /storage/*.key
 /storage/pail
 /storage/debugbar
+/storage/logs
 /vendor
 .env
 .env.backup
@@ -20,7 +21,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.nova
-/.vscode
 /.zed
 # do not git composer lock to be able install pacgages locally without changes
 composer.lock

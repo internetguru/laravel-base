@@ -9,6 +9,7 @@ return [
     'users.index' => 'Users',
     'users.show' => 'User Detail',
     'error' => 'Error',
+    'errors.index' => 'Error Pages|Errors',
     'token_auth' => 'One-time Login',
     'i18n' => 'Translations',
     'i18n.index' => 'Translations Check|Translations',

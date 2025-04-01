@@ -9,6 +9,7 @@ return [
     'users.index' => 'Uživatelé',
     'users.show' => 'Detail uživatele',
     'error' => 'Chyba',
+    'errors.index' => 'Chybové stránky|Chyby',
     'token_auth' => 'Jednorázové přihlášení',
     'i18n' => 'Překlady',
     'i18n.index' => 'Kontrola překladů|Překlady',

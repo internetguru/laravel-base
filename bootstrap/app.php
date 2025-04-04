@@ -21,6 +21,7 @@ return Application::configure(basePath: dirname(__DIR__))
             \InternetGuru\LaravelUser\Http\Middleware\SetAppLocale::class,
         ]);
         $middleware->group('web', [
+            \InternetGuru\LaravelCommon\Http\Middleware\SetPrevPage::class,
             \Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ]);

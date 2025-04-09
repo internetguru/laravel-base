@@ -13,6 +13,7 @@
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>
     <body>
+        <x-ig::editable />
         <x-ig::demo-info />
         <x-header />
 

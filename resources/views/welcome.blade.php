@@ -16,6 +16,7 @@
                 <x-ig::input type="password" name="password" label="Password">Enter your password</x-ig::input>
                 <x-ig::input type="select" :options="['Option 1', 'Option 2']" name="select">Choose an option</x-ig::input>
                 <x-ig::input type="checkbox" name="checkbox" label="Checkbox">Check me</x-ig::input>
+                <x-ig::submit>Submit</x-ig::submit>
             </x-ig::form>
             <h2 class="mt-5">Test Editable Form with <code>editable-skip</code></h2>
             <x-ig::form class="editable-skip">
@@ -24,6 +25,7 @@
                 <x-ig::input type="password" name="password" label="Password">Enter your password</x-ig::input>
                 <x-ig::input type="select" :options="['Option 1', 'Option 2']" name="select">Choose an option</x-ig::input>
                 <x-ig::input type="checkbox" name="checkbox" label="Checkbox">Check me</x-ig::input>
+                <x-ig::submit>Submit</x-ig::submit>
             </x-ig::form>
         </div>
     </section>

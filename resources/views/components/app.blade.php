@@ -28,7 +28,7 @@
             @endif
             {{ $slot }}
 
-            <x-ig::messages />
+            <livewire:ig-messages />
         </main>
 
         <x-footer />

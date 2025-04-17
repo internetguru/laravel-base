@@ -5,8 +5,6 @@ return [
     'welcome.title' => 'Laravel Base Project',
     'welcome.description' => 'Basic template for developing applications in Laravel.',
 
-    'footer.copy' => '© :year Internet Guru. All rights reserved.',
-
     'provider' => '© 2022–:year by :link – All rights reserved.',
     'provider.email' => 'info@internetguru.io',
     'provider.name' => 'Internet Guru',

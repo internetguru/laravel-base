@@ -3,7 +3,6 @@
         <div class="header-content d-flex justify-content-between align-items-center my-3">
             <x-ig::breadcrumb />
             <div>
-                <x-ig-feedback />
                 <x-ig-user::user-menu />
             </div>
         </div>

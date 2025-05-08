@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="{{ Helpers::getAppInfo() }}"/>
         <meta name="csrf_token" content="{{ csrf_token() }}"/>
+        <x-ig::component-signatures />
+
         <title>{{ $headTitle ?? Helpers::createTitle() }}</title>
 
         {!! $styles ?? '' !!}
@@ -32,7 +34,6 @@
         </main>
 
         <x-footer />
-        <x-ig::component-signatures />
 
         {!! $scripts ?? '' !!}
         @livewireScriptConfig

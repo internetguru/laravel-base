@@ -28,9 +28,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "internetguru/laravel-common": "dev-main as 0.12.0",
-        "internetguru/laravel-model-browser": "dev-main as 0.11.0",
-        "internetguru/laravel-recaptchav3": "dev-main",
+        "internetguru/laravel-common": "dev-main as 1.0.0",
+        "internetguru/laravel-model-browser": "dev-main as 1.0.0",
         "internetguru/laravel-smart-redirect": "dev-main",
         "internetguru/laravel-translatable": "dev-main",
         "internetguru/laravel-user": "dev-main",

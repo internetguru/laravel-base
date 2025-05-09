@@ -10,7 +10,6 @@
         <title>{{ $headTitle ?? Helpers::createTitle() }}</title>
 
         {!! $styles ?? '' !!}
-        {!! RecaptchaV3::initJs() !!}
         @livewireStyles
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>

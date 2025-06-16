@@ -24,3 +24,6 @@ yarn-error.log
 /.zed
 # do not git composer lock to be able install pacgages locally without changes
 composer.lock
+docker-compose*
+Dockerfile
+database/*.sqlite

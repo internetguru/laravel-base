@@ -34,6 +34,7 @@
         "internetguru/laravel-scripts": "dev-main",
         "internetguru/laravel-smart-redirect": "dev-main",
         "internetguru/laravel-translatable": "dev-main",
+        "internetguru/laravel-upload": "dev-main",
         "internetguru/laravel-user": "dev-main",
         "laravel/framework": "^11.31",
         "laravel/octane": "^2.9",

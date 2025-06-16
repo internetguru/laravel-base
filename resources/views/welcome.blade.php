@@ -11,6 +11,7 @@
         <div>
             <h2>Test Editable Form</h2>
             <x-ig::form>
+                <livewire:upload name="images" />
                 <x-ig::input type="text" name="name" label="Name" value="John">Enter your name</x-ig::input>
                 <x-ig::input type="email" name="email" label="Email">Enter your email</x-ig::input>
                 <x-ig::input type="password" name="password" label="Password">Enter your password</x-ig::input>

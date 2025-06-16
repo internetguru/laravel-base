@@ -18,6 +18,7 @@ export default defineConfig({
             'ig::common-js': path.resolve(__dirname, 'vendor/internetguru/laravel-common/resources/js'),
             'ig::user': path.resolve(__dirname, 'vendor/internetguru/laravel-user/resources/sass'),
             'ig::model-browser': path.resolve(__dirname, 'vendor/internetguru/laravel-model-browser/resources/sass'),
+            'ig::upload': path.resolve(__dirname, 'vendor/internetguru/laravel-upload/resources/sass'),
         }
     },
 });

@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="{{ Helpers::getAppInfo() }}"/>
+        <meta name="copyright" content="@lang('ig-common::layouts.provider.name')" />
+        <meta name="author" content="@lang('ig-common::layouts.provider.email')" />
         <meta name="csrf_token" content="{{ csrf_token() }}"/>
         <x-ig::component-signatures />
 

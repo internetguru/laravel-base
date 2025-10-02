@@ -9,6 +9,13 @@
 
     <section class="section section-welcome">
         <div>
+            <h2>Test macros</h2>
+            <ul>
+                <li><samp>now()->subMonths(3)->myDiffForHumans()</samp><br />{{ now()->subMonths(3)->myDiffForHumans() }}</li>
+                <li><samp>now()->subMonths(15)->myDiffForHumans()</samp><br />{{ now()->subMonths(15)->myDiffForHumans() }}</li>
+                <li><samp>now()->subMonths(11)->subDays(16)->myDiffForHumans()</samp><br />{{ now()->subMonths(11)->subDays(16)->myDiffForHumans() }}</li>
+                <li><samp>now()->subSeconds(10)->myDiffForHumans()</samp><br />{{ now()->subSeconds(10)->myDiffForHumans() }}</li>
+            </ul>
             <h2>Test Editable Form</h2>
             <x-ig::form>
                 <livewire:upload name="images" />

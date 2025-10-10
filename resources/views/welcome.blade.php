@@ -8,7 +8,19 @@
     </x-slot>
 
     <section class="section section-welcome">
-        <div>
+        <div id="print-test">
+            <h2>Test print</h2>
+            <x-ig::print-button selector="#print-test" class="mb-3" />
+            <div>
+                <p><strong>{{ Helpers::getAppInfo() }}</strong></p>
+                <p>Test data current locale: <strong>{{ app()->currentLocale() }}</strong></p>
+                <p>Test data current url: <strong>{{ url()->current() }}</strong></p>
+                <p>Test data app.name: <strong>{{ config('app.name') }}</strong></p>
+                <p>Test data app.url: <strong>{{ config('app.url') }}</strong></p>
+                <p>Test data app.env: <strong>{{ config('app.env') }}</strong></p>
+                <p>Test data app.debug: <strong>{{ config('app.debug') ? 'true' : 'false' }}</strong></p>
+                <p>Test data with font awesome icon: <i class="fa-solid fa-user-tie"></i></p>
+            </div>
             <h2>Test macros</h2>
             <ul>
                 <li><samp>now()->subMonths(3)->myDiffForHumans()</samp><br />{{ now()->subMonths(3)->myDiffForHumans() }}</li>

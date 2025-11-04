@@ -12,6 +12,10 @@ Route::get('/', function () {
 Route::post('/', function (Request $request, ReCaptchaInterface $reCaptcha) {
     $reCaptcha->validate($request);
 
+    $request->validate([
+        'email' => 'required|email|max:255',
+    ]);
+
     return redirect()->route('home')->with('success', 'Form submitted successfully!');
 })
     ->name('submit');

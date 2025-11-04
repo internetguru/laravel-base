@@ -24,6 +24,7 @@ return Application::configure(basePath: dirname(__DIR__))
             \InternetGuru\LaravelCommon\Http\Middleware\SetPrevPage::class,
             \Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \InternetGuru\LaravelCommon\Middleware\TimezoneMiddleware::class,
         ]);
         $middleware->trustProxies(at: '*');
     })

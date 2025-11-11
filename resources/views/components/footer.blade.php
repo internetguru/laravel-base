@@ -25,12 +25,10 @@
             <div>
                 <x-ig::lang-switch />
                 <ul class="list-unstyled d-flex flx-wrap gap-2">
-                    <li><a href="Javascript:void(0)" x-data x-on:click.prevent="Livewire.dispatch('openFeedback', {id: 'feedback-form'})">
-                        {{ __('ig-feedback::layouts.modal.link_text') }}
-                    </a></li>
-                    <li><a href="Javascript:void(0)" x-data x-on:click.prevent="Livewire.dispatch('openFeedback', {id: 'feedback-form-2'})">
+                    <li><x-ig-feedback::link form-id="feedback-form" /></li>
+                    <li><x-ig-feedback::link form-id="feedback-form-2">
                         Click here!
-                    </a></li>
+                    </x-ig-feedback::link></li>
                 </ul>
                 <ul class="list-unstyled d-flex flx-wrap gap-2">
                     <li><x-ig::footer-copy /></li>

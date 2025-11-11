@@ -15,7 +15,7 @@
     "require": {
         "php": "^8.2",
         "internetguru/laravel-common": "^2",
-        "internetguru/laravel-feedback": "^2",
+        "internetguru/laravel-feedback": "^3",
         "internetguru/laravel-model-browser": "^1",
         "internetguru/laravel-scripts": "^0",
         "internetguru/laravel-translatable": "^0",

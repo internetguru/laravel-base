@@ -11,31 +11,17 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/internetguru/*",
-            "symlink": true
-        },
-        {
-            "type": "composer",
-            "url": "https://packagist.org",
-            "exclude": [
-                "internetguru/*"
-            ]
-        }
-    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "internetguru/laravel-common": "dev-main as 2.0.0",
-        "internetguru/laravel-feedback": "dev-main",
-        "internetguru/laravel-model-browser": "dev-main as 1.0.0",
-        "internetguru/laravel-scripts": "dev-main",
+        "internetguru/laravel-common": "^2",
+        "internetguru/laravel-feedback": "^2",
+        "internetguru/laravel-model-browser": "^1",
+        "internetguru/laravel-scripts": "^0",
+        "internetguru/laravel-translatable": "^0",
+        "internetguru/laravel-user": "^2",
         "internetguru/laravel-smart-redirect": "dev-main",
-        "internetguru/laravel-translatable": "dev-main",
         "internetguru/laravel-upload": "dev-main",
-        "internetguru/laravel-user": "dev-main",
         "laravel/framework": "^11.31",
         "laravel/octane": "^2.9",
         "laravel/tinker": "^2.9",

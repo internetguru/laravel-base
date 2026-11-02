@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-11-02
+
+### Deprecated
+
+- The template is no longer maintained and the repository is archived; new projects are created from scratch with AI.
+
 ## [0.2.2] - 2026-02-25
 
 ### Fixed
@@ -31,6 +37,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - New changelog file.
 
 [Unreleased]: https://https://github.com/internetguru/laravel-base/compare/staging...dev
+[0.2.3]: https://github.com/internetguru/laravel-base/compare/v0.2.2...v0.2.3
 [0.2.2]: https://https://github.com/internetguru/laravel-base/compare/v0.2.1...v0.2.2
 [0.2.1]: https://https://github.com/internetguru/laravel-base/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/internetguru/laravel-base/releases/tag/v0.2.0

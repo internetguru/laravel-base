@@ -1,5 +1,8 @@
 # Laravel Base
 
+> [!WARNING]
+> **Deprecated.** This template is no longer maintained and the repository is archived. New Internet Guru projects are created from scratch with AI on the current Laravel and the latest `internetguru/laravel-*` packages.
+
 ## License & Commercial Terms
 
 ### License
